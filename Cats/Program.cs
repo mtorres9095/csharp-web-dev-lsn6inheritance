@@ -10,6 +10,8 @@ namespace Cats
             HouseCat garfield = new HouseCat("Garfield", 12.0);
             garfield.Eat();
             Console.WriteLine(garfield.Tired);   // prints true
+            HouseCat spike = new HouseCat("Spike");
+            Console.WriteLine(spike.Weight);   // prints 13
         }
     }
 }
